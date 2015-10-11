@@ -1,0 +1,24 @@
+<unit>
+    <unit_type>Airship</unit_type>
+
+    <model>...</model>
+    <walking_animation>...</walking_animation>
+    <idle_animation>...</idle_animation>
+    <death_animation>...</death_animation>
+
+    <speed>0.2</speed>
+    <acceleration>0.5</acceleration>
+    <turning_speed>0.1</turning_speed>
+    <radius>2.0</radius>
+    <sight_radius>4.0</sight_radius>
+
+    <weapon>test_weapon.xml</weapon>
+
+    <abilities>
+        <ability>test_ability.xml</ability>
+    </abilities>
+
+    <attributes>
+        <army>true</army>
+    </attributes>
+</unit>

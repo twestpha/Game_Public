@@ -1,0 +1,20 @@
+<layout>
+    <type>ui_button</type>
+
+    <constraints>
+        <x>
+            <anchor>centered</anchor>
+            <offset>0</offset>
+        </x>
+        <y>
+            <anchor>centered</anchor>
+            <offset>200</offset>
+        </y>
+        <width>250</width>
+    </constraints>
+
+    <text>Exit Program</text>
+    <font>BreeSerif-Regular.ttf</font>
+    <function>exitProgram</function>
+
+</layout>

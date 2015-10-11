@@ -1,0 +1,28 @@
+<layout>
+    <type>ui_radiobutton</type>
+
+    <constraints>
+        <x>
+            <anchor>left</anchor>
+            <offset>30</offset>
+        </x>
+        <y>
+            <anchor>centered</anchor>
+            <offset>-150</offset>
+        </y>
+    </constraints>
+
+    <text>Vsync</text>
+    <font>BreeSerif-Regular.ttf</font>
+    <mode>on</mode>
+    <function>testFunction</function>
+
+    <sprites>
+        <width>28</width>
+        <height>28</height>
+        <on_icon>res/textures/radio_on.png</on_icon>
+        <off_icon>res/textures/radio_off.png</off_icon>
+        <hover_icon>res/textures/radio_hover.png</hover_icon>
+    </sprites>
+
+</layout>

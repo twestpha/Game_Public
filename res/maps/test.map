@@ -1,0 +1,671 @@
+{
+"mesh_path": "res/models/",
+"texture_path": "res/textures/",
+"shader_path": "",
+"camera": {
+"fov": 45.000000,
+"position": {
+"x": -15.950012,
+"y": 40.000000,
+"z": 68.748894
+},
+"rotation": {
+"x": 1.040000,
+"y": 0.000000,
+"z": 0.000000
+},
+"move_sensitivity": 10.000000,
+"rotate_sensitivity": 2.000000
+},
+"doodads": [
+{
+"mesh": "fence.dae",
+"scale": 1.000000,
+"position": {
+"x": 0.000000,
+"y": 0.000000,
+"z": 0.000000
+},
+"rotation": {
+"x": 1.570700,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png",
+"norm": "fence_norm.png"}
+},
+{
+"mesh": "castle_tower.dae",
+"scale": 2.500000,
+"position": {
+"x": 4.500000,
+"y": 0.000000,
+"z": -6.200000
+},
+"rotation": {
+"x": 1.570700,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "castle_tower_diff.png",
+"norm": "castle_tower_norm.png"}
+},
+{
+"mesh": "firepit.dae",
+"scale": 1.800000,
+"position": {
+"x": -1.414000,
+"y": -0.010000,
+"z": 0.000000
+},
+"rotation": {
+"x": 1.570700,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "firepit_diff.png",
+"emit": "firepit_emit.png"}
+},
+{
+"mesh": "tree_stump.dae",
+"scale": 3.000000,
+"position": {
+"x": 6.329284,
+"y": 0.000000,
+"z": 18.093100
+},
+"rotation": {
+"x": 1.570796,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "tree_stump.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 3.000000,
+"position": {
+"x": -13.951621,
+"y": 0.000000,
+"z": 18.859364
+},
+"rotation": {
+"x": 1.570796,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "tree_stump.dae",
+"scale": 3.740995,
+"position": {
+"x": 16.689299,
+"y": 0.039215,
+"z": 6.571957
+},
+"rotation": {
+"x": 1.570796,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "tree_stump.png"}
+},
+{
+"mesh": "tree_stump.dae",
+"scale": 2.384001,
+"position": {
+"x": 14.444593,
+"y": 0.039215,
+"z": 16.007475
+},
+"rotation": {
+"x": 1.570796,
+"y": -0.863003,
+"z": 0.000000
+},
+"textures": {
+"diff": "tree_stump.png"}
+},
+{
+"mesh": "tree_stump.dae",
+"scale": 1.924000,
+"position": {
+"x": -2.522643,
+"y": 0.000000,
+"z": 10.099411
+},
+"rotation": {
+"x": 1.570796,
+"y": -2.519003,
+"z": 0.000000
+},
+"textures": {
+"diff": "tree_stump.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -6.718001,
+"y": 0.040821,
+"z": 21.040979
+},
+"rotation": {
+"x": 1.570796,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -7.411998,
+"y": 0.000000,
+"z": 14.405891
+},
+"rotation": {
+"x": 1.570796,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -18.378242,
+"y": 0.000000,
+"z": 9.869844
+},
+"rotation": {
+"x": 2.344793,
+"y": 0.000000,
+"z": 0.840000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -20.360806,
+"y": 0.000000,
+"z": 13.275867
+},
+"rotation": {
+"x": 0.578790,
+"y": 0.000000,
+"z": 0.840000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -17.726795,
+"y": 0.000000,
+"z": 13.985302
+},
+"rotation": {
+"x": 0.578790,
+"y": -0.605000,
+"z": 0.840000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -24.482096,
+"y": 0.008228,
+"z": 13.209848
+},
+"rotation": {
+"x": 0.578790,
+"y": 0.177004,
+"z": 0.840000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 2.564999,
+"position": {
+"x": -6.763564,
+"y": 0.000000,
+"z": 17.574909
+},
+"rotation": {
+"x": 1.938785,
+"y": 0.177004,
+"z": 0.840000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 2.564999,
+"position": {
+"x": -9.726929,
+"y": 0.000000,
+"z": 18.028652
+},
+"rotation": {
+"x": 2.147785,
+"y": -0.250998,
+"z": 0.840000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": 7.302014,
+"y": 10.000002,
+"z": 44.613159
+},
+"rotation": {
+"x": 1.570796,
+"y": -1.454992,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -1.272819,
+"y": 9.999998,
+"z": 44.768898
+},
+"rotation": {
+"x": 1.570796,
+"y": -1.559992,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -10.022480,
+"y": 10.000002,
+"z": 44.352051
+},
+"rotation": {
+"x": 1.570796,
+"y": -1.631992,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -19.262381,
+"y": 10.000000,
+"z": 43.983204
+},
+"rotation": {
+"x": 1.570796,
+"y": -1.557993,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": 11.226064,
+"y": 9.999998,
+"z": 40.480980
+},
+"rotation": {
+"x": 1.570796,
+"y": -5.954998,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": 5.096831,
+"y": 10.000002,
+"z": 36.613838
+},
+"rotation": {
+"x": 1.570796,
+"y": -4.729496,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -3.917401,
+"y": 10.000000,
+"z": 36.678364
+},
+"rotation": {
+"x": 1.570796,
+"y": -4.619999,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -12.864475,
+"y": 9.877785,
+"z": 36.373993
+},
+"rotation": {
+"x": 1.570796,
+"y": -4.778997,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -28.805462,
+"y": 0.569313,
+"z": 50.233406
+},
+"rotation": {
+"x": 1.570796,
+"y": 0.000000,
+"z": 0.000000
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -31.933813,
+"y": 0.944874,
+"z": 50.160442
+},
+"rotation": {
+"x": 1.570796,
+"y": -0.105000,
+"z": 0.207001
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -28.050856,
+"y": 2.821411,
+"z": 47.491608
+},
+"rotation": {
+"x": 1.570796,
+"y": -0.105000,
+"z": 0.207001
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -28.299309,
+"y": 5.873341,
+"z": 45.153885
+},
+"rotation": {
+"x": 1.570796,
+"y": -0.105000,
+"z": 0.207001
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -28.479252,
+"y": 8.861259,
+"z": 43.251118
+},
+"rotation": {
+"x": 1.570796,
+"y": -0.105000,
+"z": 0.207001
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 3.000000,
+"position": {
+"x": -32.000000,
+"y": 0.560932,
+"z": 47.817848
+},
+"rotation": {
+"x": 3.432304,
+"y": -0.105000,
+"z": 0.207001
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "rock1.dae",
+"scale": 4.353012,
+"position": {
+"x": -29.279821,
+"y": 3.616150,
+"z": 45.548729
+},
+"rotation": {
+"x": 3.432304,
+"y": -0.118492,
+"z": 0.570007
+},
+"textures": {
+"diff": "rock1.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -21.612347,
+"y": 10.026690,
+"z": 34.335514
+},
+"rotation": {
+"x": 1.570796,
+"y": -5.149511,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -32.004257,
+"y": 10.000002,
+"z": 36.462528
+},
+"rotation": {
+"x": 1.570796,
+"y": -2.721052,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -38.687660,
+"y": 10.000000,
+"z": 29.310383
+},
+"rotation": {
+"x": 1.570796,
+"y": -2.172045,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -28.838612,
+"y": 10.328865,
+"z": 28.821999
+},
+"rotation": {
+"x": 1.570796,
+"y": -5.560640,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+},
+{
+"mesh": "fence.dae",
+"scale": 2.348000,
+"position": {
+"x": -35.667442,
+"y": 10.000002,
+"z": 21.804445
+},
+"rotation": {
+"x": 1.570796,
+"y": -5.344622,
+"z": 0.000000
+},
+"textures": {
+"diff": "fence_diff.png"}
+}],
+"terrain": {
+"heightmap": "heightmap.png",
+"amplification": 10.000000,
+"tile_size": 8,
+"splatmaps": [
+{
+"id": 0,
+"filename": "splat0.png"},
+{
+"id": 1,
+"filename": "splat1.png"}
+],
+"texture_layers": [
+{
+"layer_number": 0,
+"splatmap": 0,
+"channel": "r",
+"textures": {
+"diff": "stylized_grass.png"
+}
+},
+{
+"layer_number": 1,
+"splatmap": 0,
+"channel": "r",
+"textures": {
+"diff": "stone_tile.png"
+}
+},
+{
+"layer_number": 2,
+"splatmap": 0,
+"channel": "g",
+"textures": {
+"diff": "stone.png"
+}
+},
+{
+"layer_number": 3,
+"splatmap": 0,
+"channel": "b",
+"textures": {
+"diff": "glacier.png"
+}
+},
+{
+"layer_number": 4,
+"splatmap": 1,
+"channel": "r",
+"textures": {
+"diff": "flowers.png"
+}
+},
+{
+"layer_number": 5,
+"splatmap": 1,
+"channel": "g",
+"textures": {
+"diff": "rough_ground.png"
+}
+},
+{
+"layer_number": 6,
+"splatmap": 1,
+"channel": "b",
+"textures": {
+"diff": "tile.png"
+}
+}
+]
+}
+}

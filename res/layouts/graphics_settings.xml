@@ -1,0 +1,68 @@
+<layout>
+    <type>ui_window</type>
+
+    <constraints>
+        <x>
+            <anchor>right</anchor>
+            <offset>-390</offset>
+        </x>
+        <y>
+            <anchor>top</anchor>
+            <offset>-20</offset>
+        </y>
+        <width>400</width>
+        <height>400</height>
+    </constraints>
+
+    <corner_sprites>
+        <outer_offset>21</outer_offset>
+        <inner_offset>11</inner_offset>
+        <width>32</width>
+        <height>32</height>
+        <up_right>res/textures/corner_up_right.png</up_right>
+        <up_left>res/textures/corner_up_left.png</up_left>
+        <down_right>res/textures/corner_down_right.png</down_right>
+        <down_left>res/textures/corner_down_left.png</down_left>
+    </corner_sprites>
+
+    <edge_sprites>
+        <outer_offset>1</outer_offset>
+        <inner_offset>11</inner_offset>
+        <thickness>12</thickness>
+        <right>res/textures/edge_right.png</right>
+        <down>res/textures/edge_down.png</down>
+        <left>res/textures/edge_left.png</left>
+        <up>res/textures/edge_up.png</up>
+    </edge_sprites>
+
+    <subelements>
+        <ui_radiobutton>
+            <layout_filepath>res/layouts/radiotest.xml</layout_filepath>
+        </ui_radiobutton>
+
+        <ui_radiobutton>
+            <layout_filepath>res/layouts/radio_shadow.xml</layout_filepath>
+        </ui_radiobutton>
+
+        <ui_radiobutton>
+            <layout_filepath>res/layouts/radio_normals.xml</layout_filepath>
+        </ui_radiobutton>
+
+        <ui_radiobutton>
+            <layout_filepath>res/layouts/radio_lighting.xml</layout_filepath>
+        </ui_radiobutton>
+
+        <ui_radiobutton>
+            <layout_filepath>res/layouts/radio_particles.xml</layout_filepath>
+        </ui_radiobutton>
+
+        <ui_radiobutton>
+            <layout_filepath>res/layouts/radio_framebuffers.xml</layout_filepath>
+        </ui_radiobutton>
+
+        <ui_radiobutton>
+            <layout_filepath>res/layouts/radio_depthmap.xml</layout_filepath>
+        </ui_radiobutton>
+    </subelements>
+
+</layout>

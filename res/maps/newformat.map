@@ -1,0 +1,173 @@
+{
+    "mesh_path": "res/models/",
+    "texture_path": "res/textures/",
+    "shader_path": "shaders/",
+
+    "camera": {
+        "fov": 45.0,
+        "position": {
+            "x": 0.0,
+            "y": 40.0,
+            "z": 40.0
+        },
+        "rotation": {
+            "x": 1.04,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "move_sensitivity": 10.0,
+        "rotate_sensitivity": 2.0
+    },
+
+    "doodads": [
+        {
+            "mesh": "fence.dae",
+            "scale": 1.0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 1.5707,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "textures": {
+                "diff": "fence_diff.png",
+                "norm": "fence_norm.png"
+            }
+        },
+        {
+            "mesh": "castle_tower.dae",
+            "scale": 2.5,
+            "position": {
+                "x": 4.5,
+                "y": 0.0,
+                "z": -6.2
+            },
+            "rotation": {
+                "x": 1.5707,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "textures": {
+                "diff": "castle_tower_diff.png",
+                "norm": "castle_tower_norm.png"
+            }
+        },
+        {
+            "mesh": "firepit.dae",
+            "scale": 1.8,
+            "position": {
+                "x": -1.414,
+                "y": -0.01,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 1.5707,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "textures": {
+                "diff": "firepit_diff.png",
+                "emit": "firepit_emit.png"
+            }
+        }
+    ],
+
+    "particle_emitters": [
+        {
+            "type": "fire",
+            "radius": 0.6,
+            "position": {
+                "x": -1.4,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "type": "smoke",
+            "radius": 0.7,
+            "position": {
+                "x": -1.4,
+                "y": 0.5,
+                "z": 0.0
+            }
+        }
+    ],
+
+    "terrain": {
+        "heightmap": "heightmap.png",
+        "amplification": 10.0,
+        "tile_size": 8,
+        "splatmaps": [
+            {
+                "id": 0,
+                "filename": "splat0.png"
+            },
+            {
+                "id": 1,
+                "filename": "splat1.png"
+            }
+        ],
+        "texture_layers": [
+            {
+                "layer_number": 0,
+                "splatmap": 0,
+                "channel": "r",
+                "textures": {
+                    "diff": "stylized_grass.png"
+                }
+            },{
+                "layer_number": 1,
+                "splatmap": 0,
+                "channel": "r",
+                "textures": {
+                    "diff": "stone_tile.png"
+                }
+            },
+            {
+                "layer_number": 2,
+                "splatmap": 0,
+                "channel": "g",
+                "textures": {
+                    "diff": "stone.png"
+                }
+            },
+            {
+                "layer_number": 3,
+                "splatmap": 0,
+                "channel": "b",
+                "textures": {
+                    "diff": "glacier.png"
+                }
+            },
+            {
+                "layer_number": 4,
+                "splatmap": 1,
+                "channel": "r",
+                "textures": {
+                    "diff": "flowers.png"
+                }
+            },
+            {
+                "layer_number": 5,
+                "splatmap": 1,
+                "channel": "g",
+                "textures": {
+                    "diff": "rough_ground.png"
+                }
+            },
+            {
+                "layer_number": 6,
+                "splatmap": 1,
+                "channel": "b",
+                "textures": {
+                    "diff": "tile.png"
+                }
+            }
+        ]
+    }
+
+}
